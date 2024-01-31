@@ -29,7 +29,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -49,6 +49,22 @@ button {
     font: inherit;
     border: none;
     cursor: pointer;
+}
+
+.main-header {
+    padding-block: 2rem;
+}
+
+.card-grid {
+    --_min-card-width: 35ch;
+    --_max-card-width: 45ch;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 
+        minmax(var(--_min-card-width), var(--_max-card-width))
+    );
+    justify-content: center;
+    gap: 2rem;
 }
 
 .wrapper {
@@ -85,18 +101,6 @@ button {
 
 .icon {
     fill: var(--color-neutral-100);
-}
-
-.card-grid {
-    --_min-card-width: 35ch;
-    --_max-card-width: 45ch;
-    margin-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 
-        minmax(var(--_min-card-width), var(--_max-card-width))
-    );
-    align-items: center;
-    gap: 2rem;
 }
 
 .card {
