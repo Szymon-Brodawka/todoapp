@@ -8,12 +8,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-button {
-    font: inherit;
-    border: none;
-    cursor: pointer;
-}
-
 @font-face {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -28,4 +22,21 @@ button {
     src:
         url("./assets/fonts/roboto-bold-webfont.woff") format("woff"),
         url("./assets/fonts/roboto-bold-webfont.woff2") format("woff2");
+}
+
+
+button {
+    font: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.icon {
+    fill: white;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: auto minmax(1fr, 250px);
+    justify-content: center;
 }
