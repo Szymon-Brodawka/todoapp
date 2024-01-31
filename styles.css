@@ -4,8 +4,28 @@
     box-sizing: 0;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 button {
     font: inherit;
     border: none;
     cursor: pointer;
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    src:
+        url("./assets/fonts/roboto-regular-webfont.woff") format("woff"),
+        url("./assets/fonts/roboto-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    src:
+        url("./assets/fonts/roboto-bold-webfont.woff") format("woff"),
+        url("./assets/fonts/roboto-bold-webfont.woff2") format("woff2");
 }
