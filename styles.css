@@ -37,6 +37,6 @@ button {
 
 .card-grid {
     display: grid;
-    grid-template-columns: auto minmax(1fr, 250px);
-    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
 }
