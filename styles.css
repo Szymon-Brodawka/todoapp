@@ -62,7 +62,6 @@ button {
 .card-grid {
     --_min-card-width: 35ch;
     --_max-card-width: 45ch;
-    margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, 
         minmax(var(--_min-card-width), var(--_max-card-width))
