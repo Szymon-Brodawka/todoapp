@@ -87,13 +87,17 @@ button {
     color: var(--_button-text-color);
     font-weight: 700;
     border-radius: .5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .button:hover {
     background-color: var(--_button-bg-color-hover);
+}
+
+.button-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .button-add {
