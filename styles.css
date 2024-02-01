@@ -103,6 +103,10 @@ button {
 .button-add {
     --_button-bg-color: var(--color-primary-400);
     --_button-bg-color-hover: var(--color-primary-500);
+    margin-inline: auto;
+    font-size: 1.75rem;
+    padding-inline: 1rem;
+    padding-block: .5rem;
 }
 
 .button-delete {
@@ -132,5 +136,5 @@ button {
 }
 
 .card-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
