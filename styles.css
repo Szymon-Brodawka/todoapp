@@ -77,6 +77,14 @@ button {
     margin-inline: auto;
 }
 
+.flow {
+    --_flow-item-spacing: 3rem;
+}
+
+.flow > * + * {
+    margin-top: var(--_flow-item-spacing);
+}
+
 .button {
     --_button-bg-color: var(--color-primary-400);
     --_button-bg-color-hover: var(--color-primary-500);
