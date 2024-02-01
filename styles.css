@@ -119,6 +119,9 @@ button {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     background-color: var(--color-primary-600);
     padding-block: 1rem;
     padding-inline: 2rem;
@@ -137,4 +140,10 @@ button {
 
 .card-title {
     font-size: 2.5rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
 }
