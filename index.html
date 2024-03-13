@@ -8,6 +8,20 @@
     <title>Todo App</title>
 </head>
 <body class="flow">
+    <dialog class="add-todo-modal flow" open>
+        <h2>Add todo</h2>
+        <form class="todo-form flow">
+            <div class="form-group">
+                <label for="todo-title">Title</label>
+                <input type="text" id="todo-title">
+            </div>
+            <div class="form-group">
+                <label for="todo-date">Due date</label>
+                <input type="date" id="todo-title">
+            </div>
+            <button type="button" class="button">Add</button>
+        </form>
+    </dialog>
     <header class="main-header">
         <div class="wrapper">
             <h1 class="main-heading">Todo App</h1>
